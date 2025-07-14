@@ -19,7 +19,7 @@ export default function RootLayout({
         <Sidebar />
         <div className="flex flex-col flex-1">
           <Header />
-          <main className="p-6 mt-16">{children}</main>
+          <main className="p-6 mt-16 ms-64">{children}</main>
         </div>
       </body>
     </html>
